@@ -27,6 +27,10 @@ nav a:hover {
     background-color: #33475b; 
 }
 
+li :hover {
+    background-color: #ecdab9; 
+}
+
 .header{
     background: #ecdab9;
     padding: 20px;
