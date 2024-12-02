@@ -37,10 +37,15 @@ li :hover {
     text-align: center;
 }
 
+main{
+    font-size: 2ch;
+}
+
 h1{
     color: rgb(48,60,86); /* header */
     font-family: "Micro 5", sans-serif;
     font-weight: 400;
+    font-size: 6ch;
     font-style: normal;
 }
 
