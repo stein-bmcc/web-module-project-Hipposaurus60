@@ -3,7 +3,7 @@
 
 /* NAVIGATION STYLING */
 /* option/alt and shift for more than one content */
-nav ul{
+nav ul{ 
     list-style-type: none;
     padding: 0; /* for the space of the sentence in front */
     margin: 0; /* centers on the page */
@@ -13,13 +13,13 @@ nav ul{
     gap: 20px; 
 }
 
-
 ul{
     list-style-type: none;
     display: flex;  /* display items horizontally */
     justify-content: center;  /* Centers items horizontally */
     gap: 20px; 
 }
+
 nav a {
     color: white;
     text-decoration: none; /* Remove underline */
@@ -30,7 +30,7 @@ nav a:hover {
     background-color: #33475b; 
 }
 
-li :hover {
+li:hover {
     background-color: #ecdab9; 
 }
 
