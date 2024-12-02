@@ -20,7 +20,7 @@ ul{
     gap: 20px; 
 }
 
-li {
+body.home-page li {
     text-align: center;  
 }
 
@@ -34,7 +34,7 @@ nav a:hover {
     background-color: #33475b; 
 }
 
-li:hover {
+body.home-page li:hover {
     background-color: #ecdab9; 
 }
 
