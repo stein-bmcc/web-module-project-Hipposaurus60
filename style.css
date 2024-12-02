@@ -20,6 +20,10 @@ ul{
     gap: 20px; 
 }
 
+li {
+    text-align: center;  
+}
+
 nav a {
     color: white;
     text-decoration: none; /* Remove underline */
