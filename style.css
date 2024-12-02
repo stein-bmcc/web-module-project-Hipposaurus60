@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&family=Pixelify+Sans:wght@400..700&display=swap');
 /*the font should be in the top*/
 
 /* NAVIGATION STYLING */
@@ -7,32 +7,72 @@ nav ul{
     list-style-type: none;
     padding: 0; /* for the space of the sentence in front */
     margin: 0; /* centers on the page */
-    background-color: rgb(248, 145, 145);
-
+    background-color: rgb(48,60,86);
 }
 
 nav li{
     display: inline-block; /* to place it in the same line */
-
-    margin-right: 20px; /* for the space in the link */
+    margin-right: 0px; /* for the space in the link */
+    text-align: center;
 }
 
-body{
-    font-size: 20px;
-    background-color: azure;
-    color: rgb(126, 120, 91); /* word color */
 
-    max-width: 700px;
-    max-width: 70ch; 
-    margin-left: auto;
-    margin-right: auto;
+nav a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #33475b; 
+}
+
+.header{
+    background: #ecdab9;
+    padding: 20px;
+    text-align: center;
 }
 
 h1{
-    color: blue; /* word color for h1 */
+    color: rgb(48,60,86); /* header */
     font-family: "Micro 5", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+h2{
+    color: rgb(48,60,86); /* header */
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+    color: rgb(0, 0, 0); /* word color */
+    background-color: #ECEBDE;  /* background color */
+
+    max-width: 70ch; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%; 
+    max-width: 400px;
+    height: auto; 
+    display: block;
+    margin: 20px 0; /* Adds space between images */   
+  }
+  
+  footer {
+    font-family: "Micro 5", sans-serif;
+    background-color: #ecebde;
+    padding: 20px;
+    text-align: left;
+    font-size: 3ch;
+    color: rgb(48, 60, 86);
+}
   
