@@ -8,13 +8,18 @@ nav ul{
     padding: 0; /* for the space of the sentence in front */
     margin: 0; /* centers on the page */
     background-color: rgb(48,60,86);
+    display: flex;  /* horizontally */
+    justify-content: center;  /* : Centers items */
+    gap: 20px; 
 }
 
-nav li{
-    display: inline-block; /* to place it in the same line */
-    margin-right: 0px; /* for the space in the link */
-}
 
+ul{
+    list-style-type: none;
+    display: flex;  /* display items horizontally */
+    justify-content: center;  /* Centers items horizontally */
+    gap: 20px; 
+}
 nav a {
     color: white;
     text-decoration: none; /* Remove underline */
