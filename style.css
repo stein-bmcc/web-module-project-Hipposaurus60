@@ -13,9 +13,7 @@ nav ul{
 nav li{
     display: inline-block; /* to place it in the same line */
     margin-right: 0px; /* for the space in the link */
-    text-align: center;
 }
-
 
 nav a {
     color: white;
